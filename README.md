@@ -17,7 +17,7 @@ My name is Bilal 'Bel' Abdul Hak. I am a Laws and Commerce student at Monash Uni
 
 ---
 
-###👨‍💻 Coding Skills
+### 👨‍💻 Coding Skills
 
 All my skills relate to data analytics using several tools, but I am keen on learning more in-depth techniques about software development and modular coding. Here are some of the technologies I've used:
 
