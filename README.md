@@ -37,6 +37,7 @@ All my skills relate to data analytics using several tools, but I am keen on lea
     * dplyr
     * lubridate
     * broom
+    * Rmd
     
 * SQL
     * PostegreSQL – pgAdmin
