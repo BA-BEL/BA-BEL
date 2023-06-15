@@ -33,7 +33,7 @@
 
 
 
-<body class="p-3 mb-2 bg-dark text-white">
+<body class="p-3 mb-2 bg-dark text-white nonscroll">
 
     <br>
 
@@ -59,7 +59,7 @@
 
     <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-4 vertical-hr">
 
             <div class="container">
                 <hr>
@@ -86,15 +86,19 @@
                     style="overflow-y:auto;max-height:1000%">
                 </div>
                 <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 1>Movie Analysis</option>
-                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 2>ETL Project</option>
-                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 3>NBA Portal</option>
-                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 4>Restaurant Review Demo</option>
+                    <option class="w3-bar-item w3-button" onclick="change_project(this.value)" value=1>Movie Analysis
+                    </option>
+                    <option class="w3-bar-item w3-button" onclick="change_project(this.value)" value=2>ETL Project
+                    </option>
+                    <option class="w3-bar-item w3-button" onclick="change_project(this.value)" value=3>NBA Portal
+                    </option>
+                    <option class="w3-bar-item w3-button" onclick="change_project(this.value)" value=4>Restaurant Review
+                        Demo
+                    </option>
                 </div>
             </div>
 
         </div>
-
 
 
         <div class="container col-md-8" id="cuisine-type">
@@ -103,8 +107,16 @@
             <hr>
 
             <!-- This container will be filled by D3 -->
-            <div class="container scroll">
+            <div class="container">
                 <div id="projectfiller">
+
+                    <!-- D3 html content start -->
+
+                    
+                    <!-- D3 html content end -->
+
+
+
                 </div>
 
             </div>
