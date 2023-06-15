@@ -39,6 +39,7 @@
 
     <!-- Navbar -->
     <div class="w3-top">
+
         <div class="w3-bar w3-black w3-left-align">
 
             <a href="index.html" class="w3-bar-item w3-button w3-teal"><i
@@ -48,7 +49,6 @@
             <a href="https://github.com/BA-BEL" class="w3-bar-item w3-button w3-hide-small w3-hover-white">GitHub</a>
             <a href="https://www.linkedin.com/in/ba-bel/"
                 class="w3-bar-item w3-button w3-hide-small w3-hover-white">LinkedIn</a>
-            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
 
         </div>
 
@@ -75,14 +75,21 @@
             <div class="container">
                 <div class="w3-panel w3-light-grey" id="info">
                     <p>Welcome to my portfolio!</p>
-                    <p>Please select a project you are interested in below:</p>
+                    <p>This portfolio houses my major projects; more of my work can be found in my other repositories.
+                    </p>
                 </div>
             </div>
 
             <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-button">Cuisines <i class="fa fa-caret-down"></i></button>
+                <button class="w3-button">Select a project <i class="fa fa-caret-down"></i></button>
                 <div class="w3-dropdown-content w3-card-4 w3-bar-block" id="Cuisine-dropdown"
                     style="overflow-y:auto;max-height:1000%">
+                </div>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 1>Movie Analysis</option>
+                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 2>ETL Project</option>
+                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 3>NBA Portal</option>
+                    <option class="w3-bar-item w3-button" onclick = "onClick(this.value)" value = 4>Restaurant Review Demo</option>
                 </div>
             </div>
 
@@ -97,7 +104,7 @@
 
             <!-- This container will be filled by D3 -->
             <div class="container scroll">
-                <div id="restofiller">
+                <div id="projectfiller">
                 </div>
 
             </div>
@@ -115,6 +122,7 @@
         <script src="https://d3js.org/d3.v7.min.js"></script>
 
         <!-- Local JS -->
+        <script src="static/js/portfolio.js"></script>
 
         <!-- <script src="{{ url_for('static', filename='js/index.js') }}"></script> -->
         <!-- <script src="{{ url_for('static', filename='js/indextest.js') }}"></script> -->
