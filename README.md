@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 My name is Bilal 'Bel' Abdul Hak. I am a Laws and Commerce student at Monash University and also a budding data analyst. I'm very interested in the world of data and hope to use it throughout my entire career. I took notice of the power of data around three years ago, dabbling with R and Excel. Now, after an intensive training program by my university, I've dipped a few more toes into this world and am excited to put my newfound skills to test!
 
 - 📄 Check out my [page](https://ba-bel.github.io/BA-BEL/)!
-- 📁 Check out my portfolio [here](index.html)!
+- 📁 Check out my portfolio [here](https://ba-bel.github.io/BA-BEL/portfolio.html)!
 - 🔭 I’m currently working on exploring the world of data.
 - 🌱 I’m currently learning more about modular coding and machine learning.
 - 📫 How to reach me: bilal.abdulhak@gmail.com
